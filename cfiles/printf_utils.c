@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 15:34:12 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/01 13:09:33 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/01 13:11:53 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ char	*ft_itoa(int n)
 {
 	unsigned int	i;
 	unsigned int	len;
-	char					*res;
+	char			*res;
 
 	len = arrlen(n);
 	res = (char *)malloc(sizeof(char) * (len + 1));
