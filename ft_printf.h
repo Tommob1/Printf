@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 13:52:54 by btomlins          #+#    #+#             */
-/*   Updated: 2023/04/28 13:57:00 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/01 13:13:48 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ int				printf_pthex(unsigned int un);
 int				printf_ptr(unsigned long long ptr);
 int				printf_pt_pcent(void);
 
-char	*ft_itoa(int n);
+char			*ft_itoa(int n);
 
 #endif
