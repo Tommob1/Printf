@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 15:34:41 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/03 14:08:42 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/03 14:14:31 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,4 +42,21 @@ static char	*ft_unitoa(unsigned int n)
 		len--;
 	}
 	return (nb);
+}
+
+int	printf_pt_unint(unsigned int un)
+{
+	int		pt_len;
+	char	*nb;
+
+	pt_len = 0;
+	if (un == 0)
+		pt_len += write(1, "0", 1);
+	else
+	{
+		nb = ft_unitoa(un);
+		pt_len += printf_ptstr(nb);
+		free(nb);
+	}
+	return (pt_len);
 }
