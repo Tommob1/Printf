@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:48:05 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/03 16:52:27 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/03 16:54:40 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static void	ft_pthex(unsigned int nb, const char format)
 {
 	if (nb >= 16)
 	{
-		ft_pthex(nb /16, format);
+		ft_pthex(nb / 16, format);
 		ft_pthex(nb % 16, format);
 	}
 	else
