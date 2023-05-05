@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 15:34:12 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/01 13:11:53 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/05 16:28:54 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 int	printf_percent(void)
 {
 	write(1, "%", 1);
+	return (1);
 }
 
 static unsigned int	arrlen(int n)
