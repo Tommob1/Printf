@@ -6,13 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 16:56:25 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/04 12:44:19 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/05 16:22:18 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
 
-static void	ft_putstr(char *str)
+static void	ft_ptstr(char *str)
 {
 	int	i;
 
