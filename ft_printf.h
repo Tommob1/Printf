@@ -23,7 +23,7 @@ int				printf_char(int c);
 int				printf_ptstr(char *str);
 int				printf_ptint(int nb);
 int				printf_pt_unint(unsigned int un);
-int				printf_pthex(unsigned int un);
+int				printf_pthex(unsigned int un, const char format);
 int				printf_ptr(unsigned long long ptr);
 int				printf_pt_pcent(void);
 
