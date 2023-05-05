@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 10:06:36 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/05 16:09:06 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/05 16:13:06 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../ft_printf.h"
@@ -35,9 +35,9 @@ static int	format_eval(va_list args, const char format)
 
 int	ft_printf(const char *format, ...)
 {
-	int	i;
-	int	t_len;
-	va_list args;
+	int		i;
+	int		t_len;
+	va_list	args;
 
 	va_start(args, format);
 	i = 0;
