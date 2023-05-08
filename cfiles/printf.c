@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 10:06:36 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/05 16:13:06 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/08 14:01:34 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../ft_printf.h"
@@ -29,7 +29,7 @@ static int	format_eval(va_list args, const char format)
 	else if (format == 'd' || format == 'i')
 		len += printf_ptint(va_arg(args, int));
 	else if (format == '%')
-		len += printf_pt_pcent();
+		len += printf_percent();
 	return (len);
 }
 
