@@ -12,6 +12,17 @@
 
 #include "../ft_printf.h"
 
+/*
+ft_un_int_len: Calculates and returns the length of an unsigned int 
+when represented as a string
+
+ft_unitoa: Converts unsigned int to a string and 
+returns a pointer to the string
+
+printf_pt_unint: Prints an unsigned int and returns 
+the length of the printed string
+*/
+
 static size_t	ft_un_int_len(unsigned int nb)
 {
 	size_t	len;
