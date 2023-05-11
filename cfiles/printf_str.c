@@ -6,11 +6,18 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 16:56:25 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/05 16:22:18 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/11 15:09:42 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
+
+/*
+ft_ptstr: Writes a string to the standard output
+
+printf_ptstr: Writes a string to the standard output and 
+returns the length of a string
+*/
 
 static void	ft_ptstr(char *str)
 {
