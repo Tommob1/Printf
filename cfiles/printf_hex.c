@@ -6,11 +6,22 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:48:05 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/05 16:19:04 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/11 14:44:41 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
+
+/*
+ft_hexlen: Returns the length of a hexadecimal representation
+
+ft_pthex: Prints the hexadecimal representation of an unsigned in 
+either upper or lowercase
+
+printf_pthex: Uses the previous two functions to print the hexadecimal
+representation of an unsigned int 'nb' and 
+return the length of the representation
+*/
 
 static int	ft_hexlen(unsigned int nb)
 {
