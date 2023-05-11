@@ -6,10 +6,27 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 10:06:36 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/08 14:01:34 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/11 17:54:14 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../ft_printf.h"
+
+/*
+va_list = Handles functions that accept a variable number of arguments.
+
+format_eval: Takes va_list and a format specifier and 
+returns the number of characters printed for each function.
+
+ft_printf: It initializes a va_list, goes through each character 
+in the format string and checks if the character is a percent sign ('%'), 
+which indicates a format specifier. If it is, ft_printf calls format_eval 
+with the va_list and the next character (the format specifier) and 
+increments the total length by the number of characters printed. 
+If the character is not a percent sign, ft_printf simply prints 
+the character and increments the total length by 1. 
+The function returns the total number of characters printed.
+
+*/
 
 static int	format_eval(va_list args, const char format)
 {
