@@ -6,11 +6,16 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 14:01:51 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/05 16:32:21 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/11 15:01:03 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
+
+/*
+Converts int to string using itoa and prints it, 
+then returns  the length of the printed string.
+*/
 
 int	printf_ptint(int nb)
 {
