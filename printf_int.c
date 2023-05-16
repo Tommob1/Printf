@@ -6,11 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 14:01:51 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/11 15:01:03 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/16 14:34:09 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 /*
 Converts int to string using itoa and prints it, 
