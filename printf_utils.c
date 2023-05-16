@@ -6,11 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 15:34:12 by btomlins          #+#    #+#             */
-/*   Updated: 2023/05/05 16:28:54 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/05/16 14:37:24 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 int	printf_percent(void)
 {
